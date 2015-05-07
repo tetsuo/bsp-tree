@@ -1,0 +1,37 @@
+{
+  "name": "bsp-tree",
+  "version": "1.0.0",
+  "description": "constructs a binary space partitioning tree",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "ndarray": "^1.0.16",
+    "isarray": "^0.0.1"
+  },
+  "devDependencies": {
+    "ndarray-unpack": "^1.0.0",
+    "tap": "^1.0.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetsuo/bsp-tree.git"
+  },
+  "keywords": [
+    "bsp",
+    "tree",
+    "split",
+    "divide"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetsuo/bsp-tree/issues"
+  },
+  "homepage": "https://github.com/tetsuo/bsp-tree"
+}
